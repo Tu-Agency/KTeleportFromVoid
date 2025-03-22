@@ -1,0 +1,16 @@
+
+# ПОДДЕРЖКА ПО НАШИМ ПЛАГИНАМ:
+# у нас в дисокрде => https://kurampa.com/discord
+
+VoidTeleport_enable: true # Включена ли функция телепортации из бездны?
+DisableVoidDamage: true # Отключить ли урон от бездны
+GiveFallingEffect: true # Выдавать ли эффект плавного падения, который спасает от смерти после телепортации
+
+VoidTeleport_Notify: true # Нужно ли отсылать сообщение телепортированному игроку?
+VoidTeleport_PlaySound: true # Звуковое оповещение о телепортации
+PermissionPluginReload: "kteleportfromvoid.reload" # Название права LuckyPerms для перезагрузки плагина
+
+Messages:
+  reload_success: "&eКонфигурация KTeleportFromVoid перезагружена!"
+  noPermission: "&#DC4245❌ &cУ вас нет прав для использования этой команды."
+  VoidNotifyMessage: "§cВы упали в бездну и были телепортированы на спавн!"

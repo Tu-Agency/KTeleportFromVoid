@@ -1,0 +1,7 @@
+name: KTeleportFromVoid
+version: '${version}'
+main: lapisteam.kurampa.kteleportfromvoid.Main
+commands:
+  kteleportfromvoid:
+    description: Команда для перезагрузки
+    usage: <command> <reload>
