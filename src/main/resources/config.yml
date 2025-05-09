@@ -10,7 +10,11 @@ VoidTeleport_Notify: true # Нужно ли отсылать сообщение 
 VoidTeleport_PlaySound: true # Звуковое оповещение о телепортации
 PermissionPluginReload: "kteleportfromvoid.reload" # Название права LuckyPerms для перезагрузки плагина
 
-Messages:
+Commands:
+  reload:
+    hasPermission: "kplugin.admin"
+
+messages:
   reload_success: "&eКонфигурация KTeleportFromVoid перезагружена!"
   noPermission: "&#DC4245❌ &cУ вас нет прав для использования этой команды."
   VoidNotifyMessage: "§cВы упали в бездну и были телепортированы на спавн!"
