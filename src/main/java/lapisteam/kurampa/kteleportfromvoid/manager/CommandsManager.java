@@ -22,12 +22,7 @@ public class CommandsManager {
     }
 
     private void InitCommandsHandlers() {
-        InitCommandsEventHandlers();
         reloadCommand_Handler = new ReloadCommand_Handler(plugin); // Обработчик команды Перезагрузки конфига плагина
-    }
-
-    private void InitCommandsEventHandlers() {
-
     }
 
     private void registerCommands() {

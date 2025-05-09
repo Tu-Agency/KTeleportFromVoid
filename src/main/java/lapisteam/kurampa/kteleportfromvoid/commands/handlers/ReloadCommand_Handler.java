@@ -23,8 +23,9 @@ public class ReloadCommand_Handler {
 
     public boolean Handler(CommandSender sender, String[] args) {
         configManager.reloadPluginConfig(); // Перезагружаем конфиг плагина
-        sender.sendMessage(cfg.getMessage("reload_success"));
-        logger.info("Плагин KChat перезагружен");
+        String outputMessage = cfg.getCommandData("reload", "outPutMessage");
+        sender.sendMessage(outputMessage);
+        logger.info(outputMessage);
         return true;
     }
 }

@@ -13,6 +13,7 @@ PermissionPluginReload: "kteleportfromvoid.reload" # Название права
 Commands:
   reload:
     hasPermission: "kplugin.admin"
+    outputMessage: "Плагин KTeleportFromVoid перезагружен"
 
 messages:
   reload_success: "&eКонфигурация KTeleportFromVoid перезагружена!"
